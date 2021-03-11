@@ -7,6 +7,7 @@ git clone -b $ROBOCOMP_BRANCH https://github.com/robocomp/robocomp.git
 sudo ln -s ~ /home/robocomp
 echo "export ROBOCOMP=~/robocomp" >> ~/.bashrc
 echo "export PATH=$PATH:/opt/robocomp/bin" >> ~/.bashrc
+echo "export PYTHONIOENCODING=utf-8" >> ~/.bashrc
 export ROBOCOMP=~/robocomp
 export PATH=$PATH:/opt/robocomp/bin
 export PYTHONIOENCODING=utf-8
