@@ -3,6 +3,7 @@ cat /etc/issue
 
 sudo DEBIAN_FRONTEND=noninteractive apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends  \
       ca-certificates \
+      locales \
       cmake \
       curl \
       freeglut3-dev \
