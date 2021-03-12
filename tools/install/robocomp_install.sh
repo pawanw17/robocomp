@@ -17,6 +17,6 @@ mkdir build
 cd build
 cmake ..
 make -j$(nproc)
-sudo env "PATH=$PATH" PYTHONENCODING=utf-8 make install
+sudo PYTHONENCODING=utf-8 make install
 sudo sh -c "echo '/opt/robocomp/lib/' >> /etc/ld.so.conf"
 sudo ldconfig
